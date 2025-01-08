@@ -1,0 +1,13 @@
+.footer{
+    background: black;
+    border-top: 1px solid blanchedalmond;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+.footer h1{
+    font-size: 15px;
+}

@@ -1,0 +1,40 @@
+.landing-container{
+  width: 100%;
+  height: 100vh;
+  /* background-color: blueviolet; */
+  background-image: url("./top.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  
+}
+
+.landing-content{
+  margin-top: 500px;
+  text-align: center;
+  margin-left: 190px;
+}
+
+
+
+.landing-content a{
+  font-size: 23px;
+  color: black;
+  background: #d2b48c;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.landing-content a:hover{
+  background-color: white;
+  border: 3px solid blac;
+  color: black;
+}
+
+  

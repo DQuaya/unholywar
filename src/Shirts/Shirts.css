@@ -1,0 +1,338 @@
+
+*{
+    font-family:iran_sans_light;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s linear;
+}
+html{
+    font-size: 60%;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding: 2rem 9%;
+}
+
+.product{
+    background: #000;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: .2rem solid #d2b48c;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color: black;
+    cursor: pointer;
+    background: #d2b48c;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: black;
+    color: #d2b48c;
+    border: .2rem solid #d2b48c;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+}
+.heading span{
+    color: #d2b48c;
+}
+.product .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.product .box-container .box{
+    border: .1rem solid rgb(255, 255, 255);
+    border-radius: .5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    flex: 1 1 30rem;
+}
+.product .box-container .content{
+    padding: 1.5rem;
+}
+
+.content img{
+    background: #d2b48c;
+}
+.product .box-container .box img{
+    height: 20rem;
+    /* transform: rotate(-35deg); */
+    margin: 8rem 2rem;
+}
+
+
+.product .box-container .box:hover img{
+    transform:  scale(1.2);
+}
+.product .box-container .box .icons{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+}
+.product .box-container .box .icons a{
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: #000;
+    border: .1rem solid #000;
+    border-radius: .5rem;
+    background: #fff;
+    margin-top: .5rem;
+}
+.product .box-container .box .icons{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: .5rem;
+    left: -10rem;
+}
+.product .box-container .box:hover .icons{
+    left: 1rem;
+}
+.product .box-container .box .icons a:hover{
+    color: #d2b48c;
+}
+.product .box-container .box .content h3{
+    color: white;
+    font-size: 2.5rem;
+}
+.product .box-container .box .content .price{
+    color: white;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.product .box-container .box .content .price span{
+    color: #d2b48c;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.product .box-container .box .content .stars{
+    padding-bottom: 1rem;
+}
+.product .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: #d2b48c;
+}
+
+.product .box-container .box .content span{
+    color: #d2b48c;
+}
+/* end product  */
+.featured .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border: .1rem solid #d2b48c;
+    border-radius: .5rem;
+    background: white;
+    padding: 2rem;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.featured .row .content{
+    flex: 1 1 40rem;
+}
+.featured .row .image-container{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex: 1 1 50rem;
+}
+.featured .row .image-container .small-image{
+    width: 20%;
+}
+.featured .row .image-container .big-image{
+    width: 80%;
+    padding: 1rem;
+}
+.featured .row .image-container .small-image img{
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.featured .row .image-container .small-image img:hover{
+    background: #d2b48c;
+}
+.featured .row .image-container .big-image img{
+    width: 100%;
+}
+.featured .row .image-container .big-image img:hover{
+    transform: scale(1.05);
+}
+.featured .row .content h3{
+    font-size: 2.5rem;
+    color: white;
+}
+.featured .row .content .stars i{
+    font-size: 1.7rem;
+    color: #d2b48c;
+    padding: .5rem 0;
+}
+.featured .row .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.featured .row .content .price{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bolder;
+}
+.featured .row .content .price span{
+    font-size: 1.5rem;
+    color: #d2b48c;
+    text-decoration: line-through;
+}
+/* end featured  */
+.blog .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.blog .box-container .box{
+    flex: 1 1 30rem;
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #d2b48c;
+    padding: 2rem;
+    /* height: 300px; */
+    
+}
+.blog .box-container .box img{
+    /* border-radius: 50%; */
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem 0;
+    border: 4px solid black;
+}
+.blog .box-container .box img:hover{
+   transform: scale(1.2);
+}
+.blog .box-container .box h3{
+    font-size: 2.5rem;
+    color: black;
+}
+.blog .box-container .box p{
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem 0;
+}
+.blog .box-container .box .stars i{
+    color: #d2b48c;
+    font-size: 2rem;
+}
+/* end blog  */
+.news{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.news .content{
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+}
+.news .content h3{
+    font-size: 2.5rem;
+    color: #000;
+}
+.news .content p{
+    font-size: 1.5rem;
+    color: black;
+    margin: 1rem auto;
+    max-width: 60rem;
+}
+.news .content form{
+    margin:  1rem auto;
+    max-width: 50rem;
+    display: flex;
+}
+
+.news .content form .email{
+    width: 100%;
+    font-size: 1.7rem;
+    text-transform: none;
+    color: black;
+    padding: 1rem;
+    border: .2rem solid #000;
+    border-right: none;
+    margin-top: 1rem;
+}
+.news .content form .btn{
+    border-radius: none;
+}
+/* end news  */
+.cridet .box{
+    padding: .1rem;
+    text-align: center;
+}
+.cridet .box h3{
+    font-size: 2rem;
+}
+
+
+
+
+.cart-indicator {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

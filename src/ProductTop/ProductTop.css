@@ -1,0 +1,35 @@
+.Top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 750px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .Top-title { margin-bottom: 10px; }
+  
+  .Top-title > strong { display: block; }
+  
+  .Top-text {
+    /* color: var(--onyx);
+    font-family: var(--ff-roboto);
+    font-size: var(--fs-8); */
+    line-height: 1.8;
+    max-width: 46ch;
+    margin-bottom: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .Top.hero {
+      background-image: url('./mobile.gif');
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .Top.hero {
+      background-image: url('./bg1.gif');
+    }
+  }
+  

@@ -1,23 +1,24 @@
-import React from 'react'
+import React from 'react';
 import './ProductTop.css';
-import bg from './bg1.gif';
-import mb from './mobile.gif'
-function ProductTop() {
 
-  const isMobile = window.innerWidth <= 768; // Define the breakpoint for mobile view
-  const bgMobile = {mb}; // Mobile background image
-  const bgDesktop = {bg}; // Desktop background image
+function ProductTop() {
+  const isMobile = window.innerWidth <= 768; 
+  const bgMobile = 'https://i.imghippo.com/files/ni1282ms.gif'; 
+  const bgDesktop = 'https://i.imghippo.com/files/Tj8637oE.gif'; 
 
   return (
-    <section class="Top hero" style={{
-        backgroundImage: `url(${isMobile ? bgMobile : bgDesktop})`, 
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}>
-        
-      </section>
-  )
+    <section
+      className="Top hero"
+      style={{
+        backgroundImage: `url(${isMobile ? bgMobile : bgDesktop})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+      }}
+    >
+      {/* Add your content here */}
+    </section>
+  );
 }
 
-export default ProductTop
+export default ProductTop;

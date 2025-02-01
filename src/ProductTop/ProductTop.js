@@ -2,11 +2,9 @@ import React from 'react';
 import './ProductTop.css';
 
 function ProductTop() {
-  const isMobile = window.innerWidth <= 768; 
-  const bgMobile = ''; 
-  const bgDesktop = ''; 
-  // const bgMobile = 'https://i.imghippo.com/files/ni1282ms.gif'; 
-  // const bgDesktop = 'https://i.imghippo.com/files/Tj8637oE.gif'; 
+  const isMobile = window.innerWidth <= 768;  
+  const bgMobile = 'https://i.imghippo.com/files/ni1282ms.gif'; 
+  const bgDesktop = 'https://i.imghippo.com/files/Tj8637oE.gif'; 
 
   return (
     <section

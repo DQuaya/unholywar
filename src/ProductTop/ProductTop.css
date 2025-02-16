@@ -23,13 +23,13 @@
   
   @media (max-width: 768px) {
     .Top.hero {
-      /* background-image: url('https://i.imghippo.com/files/ni1282ms.gif'); */
+      background-image: url('https://i.imghippo.com/files/ni1282ms.gif');
     }
   }
   
   @media (min-width: 769px) {
     .Top.hero {
-      /* background-image: url('https://i.imghippo.com/files/Tj8637oE.gif'); */
+      background-image: url('https://i.imghippo.com/files/Tj8637oE.gif');
     }
   }
   

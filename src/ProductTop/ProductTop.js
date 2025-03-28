@@ -16,7 +16,6 @@ function ProductTop() {
         backgroundPosition: 'center',
       }}
     >
-      {/* Add your content here */}
     </section>
   );
 }

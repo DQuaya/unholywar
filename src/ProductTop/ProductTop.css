@@ -14,8 +14,8 @@
   left: 0;
   width: 100%;
   height: 130%;
-  object-fit: cover; /* Makes the video cover the section like a background image */
-  z-index: -1; /* Keeps video behind any text/content */
+  object-fit: cover; 
+  z-index: -1; 
 }
   .Top-title { margin-bottom: 10px; }
   
